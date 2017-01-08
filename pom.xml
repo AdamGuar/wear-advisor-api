@@ -56,5 +56,15 @@
 		    <artifactId>spring-web</artifactId>
 		    <version>4.3.5.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.fuzzylite</groupId>
+		  <artifactId>jfuzzylite</artifactId>
+		  <version>5.0</version>
+		</dependency>
 	</dependencies>
 </project>

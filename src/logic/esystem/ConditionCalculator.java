@@ -46,12 +46,12 @@ public class ConditionCalculator {
 		engine.addOutputVariable(state);
 
 		RuleBlock ruleBlock = new RuleBlock();
-		ruleBlock.addRule(Rule.parse("if Temp is COLD AND Wind is WEAK then State is LOW ", engine));
-		ruleBlock.addRule(Rule.parse("if Temp is COLD AND Wind is STRON then State is LOW ", engine));
-		ruleBlock.addRule(Rule.parse("if Temp is MEDIUM AND Wind is WEAK then State is MEDIUM ", engine));
-		ruleBlock.addRule(Rule.parse("if Temp is MEDIUM AND Wind is STRON then State is LOW ", engine));
-		ruleBlock.addRule(Rule.parse("if Temp is HOT AND Wind is WEAK then State is HOT ", engine));
-		ruleBlock.addRule(Rule.parse("if Temp is HOT AND Wind is STRON then State is MEDIUM ", engine));
+		ruleBlock.addRule(Rule.parse("if Temp is COLD and Wind is WEAK then State is LOW ", engine));
+		ruleBlock.addRule(Rule.parse("if Temp is COLD and Wind is STRON then State is LOW ", engine));
+		ruleBlock.addRule(Rule.parse("if Temp is MEDIUM and Wind is WEAK then State is MEDIUM ", engine));
+		ruleBlock.addRule(Rule.parse("if Temp is MEDIUM and Wind is STRON then State is LOW ", engine));
+		ruleBlock.addRule(Rule.parse("if Temp is HOT AND and is WEAK then State is HOT ", engine));
+		ruleBlock.addRule(Rule.parse("if Temp is HOT AND and is STRON then State is MEDIUM ", engine));
 
 		engine.addRuleBlock(ruleBlock);
 

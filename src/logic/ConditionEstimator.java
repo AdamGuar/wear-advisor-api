@@ -6,8 +6,8 @@ import model.Conditions;
 public class ConditionEstimator {
 	
 	public static final int FREEZING_TEMP = -5;
-	public static final int COLD_TEMP = 0;
-	public static final int MODERATE_TEMP = 10;
+	public static final int COLD_TEMP = 10;
+	public static final int MODERATE_TEMP = 15;
 	public static final int WARM_TEMP = 25;
 	
 	
